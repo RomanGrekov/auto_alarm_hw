@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.254" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mm"/>
+<grid distance="0.254" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,13 +39,13 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -5490,6 +5490,62 @@ by exp-project-lbr.ulp</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="CR2025">
+<packages>
+<package name="SMD">
+<smd name="-" x="0" y="0" dx="1.27" dy="0.635" layer="1"/>
+<smd name="+" x="22.86" y="0" dx="1.27" dy="0.635" layer="1"/>
+<circle x="8.89" y="0" radius="10" width="0.127" layer="23"/>
+<wire x1="0" y1="7.62" x2="22.86" y2="7.62" width="0.127" layer="21"/>
+<wire x1="22.86" y1="7.62" x2="22.86" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="22.86" y1="-7.62" x2="0" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="0" y1="-7.62" x2="0" y2="7.62" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-2.54" x2="7.62" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-2.54" x2="10.16" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-5.08" x2="13.97" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="13.97" y1="-5.08" x2="13.97" y2="3.81" width="0.127" layer="21"/>
+<wire x1="13.97" y1="3.81" x2="10.16" y2="3.81" width="0.127" layer="21"/>
+<wire x1="10.16" y1="3.81" x2="7.62" y2="1.27" width="0.127" layer="21"/>
+<wire x1="7.62" y1="1.27" x2="3.81" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="17.78" y1="2.54" x2="17.78" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="17.78" y1="-2.54" x2="20.32" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="20.32" y1="-2.54" x2="20.32" y2="2.54" width="0.127" layer="21"/>
+<wire x1="20.32" y1="2.54" x2="17.78" y2="2.54" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CR2025">
+<pin name="VCC" x="-12.7" y="2.54" length="middle" direction="pwr"/>
+<pin name="GND" x="7.62" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<circle x="-2.54" y="2.54" radius="8.2196125" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CR2025_SMD">
+<gates>
+<gate name="G$1" symbol="CR2025" x="50.8" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SMD">
+<connects>
+<connect gate="G$1" pin="GND" pad="-"/>
+<connect gate="G$1" pin="VCC" pad="+"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5536,6 +5592,9 @@ by exp-project-lbr.ulp</description>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="IC3" library="microchip" library_urn="urn:adsk.eagle:library:294" deviceset="24C*" device="SN" package3d_urn="urn:adsk.eagle:package:20804/2" technology="01"/>
 <part name="X1" library="antduino" deviceset="SPARKFUN_USB" device="-MICROB"/>
+<part name="P+8" library="supply1" deviceset="VCC" device=""/>
+<part name="GND11" library="supply1" deviceset="GND" device=""/>
+<part name="U$2" library="CR2025" deviceset="CR2025_SMD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5579,6 +5638,9 @@ by exp-project-lbr.ulp</description>
 <instance part="P+7" gate="VCC" x="86.36" y="81.28" rot="R180"/>
 <instance part="IC3" gate="G$1" x="109.22" y="83.82"/>
 <instance part="X1" gate="G$1" x="112.776" y="40.64"/>
+<instance part="P+8" gate="VCC" x="-76.2" y="80.01" rot="R180"/>
+<instance part="GND11" gate="1" x="-43.18" y="80.01"/>
+<instance part="U$2" gate="G$1" x="-55.88" y="86.36"/>
 </instances>
 <busses>
 </busses>
@@ -5677,6 +5739,12 @@ by exp-project-lbr.ulp</description>
 <pinref part="IC3" gate="G$1" pin="VCC"/>
 <wire x1="116.84" y1="99.06" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
+<pinref part="P+8" gate="VCC" pin="VCC"/>
+<wire x1="-68.58" y1="88.9" x2="-76.2" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="88.9" x2="-76.2" y2="82.55" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -5752,6 +5820,12 @@ by exp-project-lbr.ulp</description>
 <pinref part="IC3" gate="G$1" pin="GND"/>
 <wire x1="116.84" y1="73.66" x2="116.84" y2="69.85" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="69.85" x2="96.52" y2="69.85" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="-48.26" y1="88.9" x2="-43.18" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="88.9" x2="-43.18" y2="82.55" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
